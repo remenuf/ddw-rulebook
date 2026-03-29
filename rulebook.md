@@ -1,9 +1,5 @@
 # DDW 2ª Edição
 
-![image.png](images/image.png)
-
----
-
 <aside>
 
 ## Considerações
