@@ -334,10 +334,9 @@ Da mesma forma que cada personagem é singular, também temos uma variedade de t
     - Relacionado ao seu deus ou príncipe infernal;
     - A entidade deve lhe agraciar para recebê-lo;
     - São temporários.
-- **Talento Alquímico;**
-    - Possui Regras extras de fabricação de consumíveis.
-- **Talento Artífice;**
-    - Possui Regras extras de fabricação de equipamentos.
+- **Talentos de Fabricação;**
+    - Engloba **Alquimia** e **Artifício**.
+    - Possui regras extras de fabricação de consumíveis e equipamentos.
 
 ---
 
@@ -1242,44 +1241,90 @@ Pouco se sabe das entidades exteriores, apenas que tentam de alguma forma exerce
 
 ---
 
-## Talentos Alquímicos
+## Talentos de Fabricação (Alquimia e Forja)
 
-A alquimia em Erwood é a ciência de transmutar matérias brutas em potencial puro. Personagens com estes talentos são capazes de preparar o grupo para qualquer adversidade, transformando recursos coletados em jornadas em vantagens táticas.
+Alquimistas e Artífices transformam matéria bruta em potencial puro. Personagens com estes talentos de criação são capazes de preparar o grupo para qualquer adversidade, transformando recursos coletados em jornadas em vantagens táticas.
 
 ### Habilidade Base
-Alquimistas Utilizam habilidades vinculadas à **Genialidade**, como *Alquimia, Botânica, Herborismo, Farmácia* ou *Química*. 
+Tanto Alquimistas quanto Artífices utilizam habilidades vinculadas à **Genialidade**.
+- **Alquimistas:** *Alquimia, Botânica, Herborismo, Farmácia* ou *Química*.
+- **Artífices:** *Ferraria, Engenharia, Joalheria, Carpintaria* ou *Runologia*.
 
-### Produzindo itens
-Diferente de ações de combate, a alquimia é uma **Ação de Produção**. O sucesso depende da combinação do seu conhecimento, o tempo investido (PA) e, claro, da qualidade da matéria-prima que você conseguiu coletar em suas aventuras.
+### A Ação de Produção (Forjando e Preparando)
+A criação de um item, seja um consumível alquímico ou um equipamento forjado, exige tempo, infraestrutura adequada e é tratada como uma **Ação de Produção**. O sucesso depende do seu conhecimento, tempo investido (PA) e da qualidade da matéria-prima. 
 
-O nível do seu Talento Alquímico funciona como um "limitador": você só consegue fabricar itens de nível igual ou inferior ao seu talento.
+O nível do seu Talento funciona como um "limitador": você só consegue fabricar itens de nível igual ou inferior ao seu talento.
 
-| Nível do Item | Materiais Necessários | Dificuldade da Ação |
+| Nível do Item | Requisitos de Materiais (Alquimia / Artifício) | Dificuldade da Ação |
 | :--- | :--- | :--- |
-| **1 (Mundano)** | Componentes comuns comprados em feiras. | 2 (Fácil) |
-| **2 (Superior)** | Materiais raros coletados em missões locais. | 4 (Moderado) |
-| **3 (Mestre)** | Extrações raras de criaturas ou locais perigosos. | 6 (Profissional) |
-| **4 (Épico)** | Essências elementais puras de Dungeons. | 8 (Difícil) |
-| **5 (Lendário)** | Componente único de um clímax narrativo. | 10 (Desafiador) |
+| **1 (Mundano)** | Componentes comuns / Metais e couros comuns. | 2 (Fácil) |
+| **2 (Superior / Boa Fatura)** | Materiais raros locais / Ligas refinadas ou madeiras tratadas. | 4 (Moderado) |
+| **3 (Mestre)** | Extrações de criaturas perigosas / Minérios raros e ferramentas precisas. | 6 (Profissional) |
+| **4 (Épico / Mágico)** | Materiais de Dungeons / Extração de monstros. | 8 (Difícil) |
+| **5 (Lendário / Relíquia)** | Componentes únicos / Materiais lendários. | 10 (Desafiador) |
 
-### Resultados da Produção
-Se bem-sucedido, o item está pronto para o uso. No entanto, se o resultado final for uma **Complicação (1)**, o item é instável: ele pode ter um efeito colateral imprevisível ou durar apenas metade do tempo. No caso de um **Fracasso (0 ou menos)**, os materiais são desperdiçados em uma nuvem de fumaça inútil.
+### Resultados da Produção e Manutenção
+Se a rolagem for bem-sucedida, o item está pronto para o uso. 
+No caso de um **Fracasso (0 ou menos)**, os materiais são desperdiçados ou arruinados em uma nuvem de fumaça inútil ou peças quebradas.
+Se o resultado final for uma **Complicação (1)**, o item possui falhas:
+- **Alquimia:** O item é instável. Pode ter um efeito colateral imprevisível ou durar apenas metade do tempo (a escolha do criador).
+- **Artifício:** O equipamento possui falhas estruturais, começando com sua durabilidade máxima reduzida pela metade.
 
-### Escolas de Especialização
-Ao criar seu talento, você escolhe qual "ramo" da alquimia sua personagem domina:
+**Manutenção Profissional (Exclusivo para Artífices):** Diferente de personagens comuns, o Artífice pode restaurar a durabilidade de itens de Nível 3 ou superior. Ao realizar uma ação de reparo bem-sucedida, ele recupera uma quantidade de durabilidade igual ao seu nível de Talento, sem risco de quebra catastrófica em caso de falha simples (Resultado 0).
 
-- **Panaceia**: Especializada na manutenção da vida. Permite criar elixires de cura, antídotos e substâncias que regeneram as caixas de estresse.
-- **Toxicologia**: O estudo das substâncias debilitantes. Focada em venenos, gases paralisantes e misturas que atacam diretamente os slots de consequência do alvo.
-- **Piroquímica e Voláteis**: Para quem gosta de soluções explosivas. Criação de bombas, ácidos corrosivos e óleos que aplicam elementos às armas.
-- **Alquimia Mutagênica**: Elixires que alteram a biologia do usuário por tempo limitado, garantindo buffs físicos ou habilidades exóticas como Voo e Visão Noturna.
-- **Química Utilitária**: O "canivete suíço" do alquimista. Criação de colas, solventes, névoas de ocultamento e ferramentas de suporte variadas.
+### Escolas e Especializações de Ofício
+Ao criar seu talento, você escolhe qual "ramo" de fabricação sua personagem domina:
 
-### Receitas 
-Alquimistas podem publicar artigos acadêmicos sobre suas pesquisas. Ao fazer-lo sua receita publicada se tornará de conhecimento público, e outros alquimistas poderão replicar sua criação.
+**Escolas de Alquimia:**
+- **Panaceia:** Especializada na manutenção da vida. Permite criar elixires de cura, antídotos e substâncias que regeneram as caixas de estresse.
+- **Toxicologia:** O estudo das substâncias debilitantes. Focada em venenos, gases paralisantes e misturas que atacam diretamente os slots de consequência do alvo.
+- **Piroquímica e Voláteis:** Para quem gosta de soluções explosivas. Criação de bombas, ácidos corrosivos e óleos que aplicam elementos às armas.
+- **Alquimia Mutagênica:** Elixires que alteram a biologia do usuário por tempo limitado, garantindo buffs físicos ou habilidades exóticas como Voo e Visão Noturna.
+- **Química Utilitária:** O "canivete suíço" do alquimista. Criação de colas, solventes, névoas de ocultamento e ferramentas de suporte variadas.
 
-Ao publicar uma receita, o alquimista pode receber dinheiro, prestígio acadêmico, e o mais importante: um **Título** de "fama" que cresce de acordo com a popularidade da receita.
+**Especializações de Artifício:**
+- **Armaria:** Focada na criação e reforço de armaduras, escudos e vestes protetoras.
+- **Cutelaria:** O domínio das lâminas e armas de impacto, focada em maximizar o alcance e o dano.
+- **Artifício Rúnico:** Criação de joias, amuletos e itens utilitários que interagem com o Arcanismo.
+- **Engenharia de Cerco:** Construção de mecanismos complexos, balistas e autômatos utilitários.
+- **Carpintaria Rúnica:** Especializada em cajados, arcos e instrumentos que servem de catalisadores.
 
-Quando equipado, ingredientes desta fabricação tem a dificuldade de obtenção reduzida pelo nível do título (máximo de 3).
+### Renome e Propriedade Intelectual
+Mestres em suas artes acabam sendo reconhecidos pelo mundo afora, seja através de **Receitas** ou **Marcas de Forja**.
+
+- **Receitas Alquímicas:** Alquimistas podem publicar artigos acadêmicos sobre suas pesquisas. Ao fazê-lo, sua receita publicada se tornará de conhecimento público, e outros alquimistas poderão replicar sua criação. (Deve-se fazê-lo em uma das universidades de Erwood).
+- **Patentes e Marcas de Forja:** Artífices podem registrar sua "Marca de Forja". Equipamentos que portam a marca de um Artífice renomado possuem um **Escudo de Durabilidade** extra (Causalidade do Artífice).
+
+Seja publicando uma receita popular ou forjando um item que se torne lendário na mão de um herói, o criador recebe dinheiro, prestígio e um **Título** de fama que cresce com sua notoriedade. Enquanto o título estiver equipado, a dificuldade ou o custo para obter os materiais e replicar itens daquela mesma categoria é reduzido drasticamente (limitado ao nível do título, máximo de 3).
+
+### Adquirindo Materiais
+Todo item de fabricação exige matéria-prima. Embora itens de Nível 1 possam ser comprados em mercados comuns, materiais de Nível 2 ou superior exigem esforço direto do personagem.
+
+- **Nível 1-2**: Podem ser comprados ou coletados em ambientes seguros.
+- **Nível 3-4**: Exigem expedições, saques de Dungeons ou extração de criaturas perigosas.
+- **Nível 5**: Materiais únicos obtidos apenas através de marcos narrativos ou vitórias épicas.
+
+#### Ação de Coleta
+A coleta é uma forma de conseguir materiais extras além das reocompensas de uma aventura. Utilizar uma **Ação de Coleta** não requer um **Talento**, mas habilidades como *Herborismo, Mineração, Esfolamento (Skinning)* ou *Sobrevivência*. A dificuldade do teste é baseada no nível do material desejado (seguindo a tabela de Dificuldade da Ação abaixo).
+
+| Nível do Material | Dificuldade da Ação |
+| :--- |:--- |
+| **1 (Mundano)** | 2 (Fácil) |
+| **2 (Superior / Boa Fatura)** | 6 (Profissional) |
+| **3 (Mestre)** | 8 (Difícil) |
+| **4 (Épico / Mágico)** | 10 (Desafiador) |
+| **5 (Lendário / Relíquia)** | 12 (Brutal) |
+
+- **Sucesso (Resultado 2 ou mais)**: Você obtém o material em perfeitas condições.
+- **Sucesso com Consequência (Resultado 1)**: O material é extraído, mas está danificado, impuro ou instável. Utilizar este material na fabricação **aumenta a Dificuldade da Ação de Produção em +1**.
+- **Fracasso (Resultado 0 ou menos)**: O recurso é destruído no processo, ou você não consegue encontrar nada de valor.
+
+#### Relação entre Causalidade e Nível de Material
+Usualmente um desafio irá gerar materiais de Nível até o dobrou de sua Causalidade (mínimo de 1). Um monstro e causalidade 2, por exemplo, pode recompensar os aventureiros com loot de nível 4.
+
+<aside>
+❗ Esfolar uma criatura (Skinning) é uma forma de coleta. Se o grupo derrotar um monstro de Causalidade 2, o Artífice pode tentar esfolá-lo para obter couro ou ossos de Nível 4, mas enfrentará a Dificuldade 8 (Difícil) no teste de Genialidade.
+</aside>
 
 ---
 
