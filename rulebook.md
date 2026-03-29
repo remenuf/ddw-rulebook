@@ -1244,6 +1244,43 @@ Pouco se sabe das entidades exteriores, apenas que tentam de alguma forma exerce
 
 ## Talentos Alquímicos
 
+A alquimia em Erwood é a ciência de transmutar matérias brutas em potencial puro. Personagens com estes talentos são capazes de preparar o grupo para qualquer adversidade, transformando recursos coletados em jornadas em vantagens táticas.
+
+### Habilidade Base
+Alquimistas Utilizam habilidades vinculadas à **Genialidade**, como *Alquimia, Botânica, Herborismo, Farmácia* ou *Química*. 
+
+### Produzindo itens
+Diferente de ações de combate, a alquimia é uma **Ação de Produção**. O sucesso depende da combinação do seu conhecimento, o tempo investido (PA) e, claro, da qualidade da matéria-prima que você conseguiu coletar em suas aventuras.
+
+O nível do seu Talento Alquímico funciona como um "limitador": você só consegue fabricar itens de nível igual ou inferior ao seu talento.
+
+| Nível do Item | Materiais Necessários | Dificuldade da Ação |
+| :--- | :--- | :--- |
+| **1 (Mundano)** | Componentes comuns comprados em feiras. | 2 (Fácil) |
+| **2 (Superior)** | Materiais raros coletados em missões locais. | 4 (Moderado) |
+| **3 (Mestre)** | Extrações raras de criaturas ou locais perigosos. | 6 (Profissional) |
+| **4 (Épico)** | Essências elementais puras de Dungeons. | 8 (Difícil) |
+| **5 (Lendário)** | Componente único de um clímax narrativo. | 10 (Desafiador) |
+
+### Resultados da Produção
+Se bem-sucedido, o item está pronto para o uso. No entanto, se o resultado final for uma **Complicação (1)**, o item é instável: ele pode ter um efeito colateral imprevisível ou durar apenas metade do tempo. No caso de um **Fracasso (0 ou menos)**, os materiais são desperdiçados em uma nuvem de fumaça inútil.
+
+### Escolas de Especialização
+Ao criar seu talento, você escolhe qual "ramo" da alquimia sua personagem domina:
+
+- **Panaceia**: Especializada na manutenção da vida. Permite criar elixires de cura, antídotos e substâncias que regeneram as caixas de estresse.
+- **Toxicologia**: O estudo das substâncias debilitantes. Focada em venenos, gases paralisantes e misturas que atacam diretamente os slots de consequência do alvo.
+- **Piroquímica e Voláteis**: Para quem gosta de soluções explosivas. Criação de bombas, ácidos corrosivos e óleos que aplicam elementos às armas.
+- **Alquimia Mutagênica**: Elixires que alteram a biologia do usuário por tempo limitado, garantindo buffs físicos ou habilidades exóticas como Voo e Visão Noturna.
+- **Química Utilitária**: O "canivete suíço" do alquimista. Criação de colas, solventes, névoas de ocultamento e ferramentas de suporte variadas.
+
+### Receitas 
+Alquimistas podem publicar artigos acadêmicos sobre suas pesquisas. Ao fazer-lo sua receita publicada se tornará de conhecimento público, e outros alquimistas poderão replicar sua criação.
+
+Ao publicar uma receita, o alquimista pode receber dinheiro, prestígio acadêmico, e o mais importante: um **Título** de "fama" que cresce de acordo com a popularidade da receita.
+
+Quando equipado, ingredientes desta fabricação tem a dificuldade de obtenção reduzida pelo nível do título (máximo de 3).
+
 ---
 
 # Raças
