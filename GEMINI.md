@@ -20,16 +20,16 @@ The system is inspired by *Fate*, *Chuubo’s Marvelous Wish-Granting Engine*, a
 
 ## Key Files
 - **`rulebook.md`**: The primary document of the project. It outlines the entire game system. To minimize token usage, read specific sections using the line references below:
-    - **Atributos e Habilidades (L23-L131)**: Causalidade, Arcanismo, Proeza Marcial, Fé, Genialidade, and player-created skills.
-    - **Iniciando Ações (L132-L291)**: Action Points (PA), obstacles, mitigation, and scene definitions.
-    - **Talentos (L292-L549)**: Types, creation, and usage of specialized abilities (cooldowns, combinations).
-    - **Combate (L550-L669)**: Offense, defense, damage, stress, consequences, and area attacks.
-    - **Progressão de Personagem (L670-L739)**: Leveling (1-8), Convergence, and Apotheosis.
-    - **Sistema de Títulos (L740-L781)**: Rules of use, progression, and customization of titles.
-    - **Equipamentos e Consumíveis (L782-L899)**: Durability, overload, maintenance, and usage limits.
-    - **Aprofundando Talentos (L900-L1082)**: Summons, healing, buffs, curses, area of effect, teleportation, and copying.
-    - **Categorias de Talentos (L1083-L1285)**: Magic, Martial, Miraculous, Contractual (Medium, Entities), and Alchemical.
-    - **Raças (L1286+)**: Character races.
+    - **Atributos e Habilidades (L19-L127)**: Causalidade, Arcanismo, Proeza Marcial, Fé, Genialidade, and player-created skills.
+    - **Iniciando Ações (L128-L287)**: Action Points (PA), obstacles, mitigation, and scene definitions.
+    - **Talentos (L288-L544)**: Types, creation, and usage of specialized abilities (cooldowns, combinations).
+    - **Combate (L545-L664)**: Offense, defense, damage, stress, consequences, and area attacks.
+    - **Progressão de Personagem (L665-L734)**: Leveling (1-8), Convergence, and Apotheosis.
+    - **Sistema de Títulos (L735-L776)**: Rules of use, progression, and customization of titles.
+    - **Equipamentos e Consumíveis (L777-L894)**: Durability, overload, maintenance, and usage limits.
+    - **Aprofundando Talentos (L895-L1077)**: Summons, healing, buffs, curses, area of effect, teleportation, and copying.
+    - **Categorias de Talentos (L1078-L1327)**: Magic, Martial, Miraculous, Contractual (Medium, Entities), and Craft.
+    - **Raças (L1328+)**: Character races.
 - **`DDW 2ª Edição/`**: A subdirectory containing all the image assets (PNG, SVG) referenced within `rulebook.md`.
 
 ## Core Mechanics

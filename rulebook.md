@@ -1243,8 +1243,10 @@ Alquimistas e Artífices transformam matéria bruta em potencial puro. Personage
 
 ### Habilidade Base
 Tanto Alquimistas quanto Artífices utilizam habilidades vinculadas à **Genialidade**.
-- **Alquimistas:** *Alquimia, Botânica, Herborismo, Farmácia* ou *Química*.
-- **Artífices:** *Ferraria, Engenharia, Joalheria, Carpintaria* ou *Runologia*.
+
+**Exemplos:**
+- **Alquimistas:** *Alquimia, Botânica, Culinária, Herborismo, Farmácia* ou *Química*.
+- **Artífices:** *Forja, Engenharia, Joalheria, Carpintaria* ou *Runologia*.
 
 ### A Ação de Produção (Forjando e Preparando)
 A criação de um item, seja um consumível alquímico ou um equipamento forjado, exige tempo, infraestrutura adequada e é tratada como uma **Ação de Produção**. O sucesso depende do seu conhecimento, tempo investido (PA) e da qualidade da matéria-prima. 
@@ -1277,6 +1279,7 @@ Ao criar seu talento, você escolhe qual "ramo" de fabricação sua personagem d
 - **Piroquímica e Voláteis:** Para quem gosta de soluções explosivas. Criação de bombas, ácidos corrosivos e óleos que aplicam elementos às armas.
 - **Alquimia Mutagênica:** Elixires que alteram a biologia do usuário por tempo limitado, garantindo buffs físicos ou habilidades exóticas como Voo e Visão Noturna.
 - **Química Utilitária:** O "canivete suíço" do alquimista. Criação de colas, solventes, névoas de ocultamento e ferramentas de suporte variadas.
+- **Gastronomia:** A arte de transformar ingredientes em pratos que fortalecem o espírito e o corpo. Permite criar refeições que concedem bônus temporários em Atributos, recuperação de Estresse fora de combate ou resistências elementais.
 
 **Especializações de Artifício:**
 - **Armaria:** Focada na criação e reforço de armaduras, escudos e vestes protetoras.
@@ -1301,7 +1304,7 @@ Todo item de fabricação exige matéria-prima. Embora itens de Nível 1 possam 
 - **Nível 5**: Materiais únicos obtidos apenas através de marcos narrativos ou vitórias épicas.
 
 #### Ação de Coleta
-A coleta é uma forma de conseguir materiais extras além das reocompensas de uma aventura. Utilizar uma **Ação de Coleta** não requer um **Talento**, mas habilidades como *Herborismo, Mineração, Esfolamento (Skinning)* ou *Sobrevivência*. A dificuldade do teste é baseada no nível do material desejado (seguindo a tabela de Dificuldade da Ação abaixo).
+A coleta é uma forma de conseguir materiais extras além das recompensas de uma aventura. Utilizar uma **Ação de Coleta** não requer um **Talento**, mas habilidades como *Herborismo, Mineração, Esfolamento (Skinning)* ou *Sobrevivência*. A dificuldade do teste é baseada no nível do material desejado (seguindo a tabela de Dificuldade da Ação abaixo).
 
 | Nível do Material | Dificuldade da Ação |
 | :--- |:--- |
