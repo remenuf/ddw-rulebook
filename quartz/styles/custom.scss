@@ -1,3 +1,9 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+a.internal {
+    background: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
