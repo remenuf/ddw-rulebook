@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: localhost
+  baseUrl: remenuf.github.io/ddw-rulebook
   ignorePatterns:
     - private
     - templates
